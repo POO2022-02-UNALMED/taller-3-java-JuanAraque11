@@ -9,14 +9,14 @@ public class TV {
 	private Control control;
 	private static int numTV;
 	
-	public static void setNumTV(int num) {
+	public static void setnumTV(int num) {
 		numTV = num;
 	}
-	public static int getNumTV() {
+	public static int getnumTV() {
 		return numTV;
 	}
 	
-	public TV(Marca mar, boolean esta) {
+	public TV (Marca mar, boolean esta) {
 		numTV ++;
 		marca = mar;
 		estado = esta;
