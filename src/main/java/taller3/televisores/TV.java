@@ -16,7 +16,7 @@ public class TV {
 		return numTV;
 	}
 	
-	private TV(Marca mar, boolean esta) {
+	public TV(Marca mar, boolean esta) {
 		numTV ++;
 		marca = mar;
 		estado = esta;
