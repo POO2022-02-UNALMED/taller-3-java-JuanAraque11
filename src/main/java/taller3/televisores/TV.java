@@ -9,10 +9,10 @@ public class TV {
 	private Control control;
 	private static int numTV;
 	
-	public static void setnumTV(int num) {
+	public static void setNumTV(int num) {
 		numTV = num;
 	}
-	public static int getnumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
 	
@@ -45,7 +45,7 @@ public class TV {
 	public void setVolumen(int volu) {
 		volumen = volu;
 	}
-	public int getVolmuen() {
+	public int getVolumen() {
 		return volumen;
 	}
 	
