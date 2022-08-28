@@ -87,7 +87,7 @@ public class TV {
 	}
 	public void canalDown() {
 		if (estado == true && canal>1 && canal<=120) {
-		    canal = canal - 1;
+		    canal --;
 		}
 	}
 	
