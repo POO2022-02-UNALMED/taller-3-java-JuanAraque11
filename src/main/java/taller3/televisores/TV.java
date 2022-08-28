@@ -68,18 +68,18 @@ public class TV {
 	
 	public void volumenUp() {
 		if (estado == true && volumen>=0 && volumen<7) {
-		    volumen = volumen + 1;
+		    volumen ++;
 		}
 	}
 	public void volumenDown() {
 		if (estado == true && volumen>0 && volumen<=7) {
-		    volumen = volumen - 1;
+		    volumen --;
 		}
 	}
 	
 	public void canalUp() {
 		if (estado == true && canal>=1 && canal<120) {
-			canal = canal + 1;
+			canal ++;
 		}
 	}
 	public void canalDown() {
