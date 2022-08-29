@@ -43,14 +43,18 @@ public class TV {
 	}
 	
 	public void setVolumen(int volu) {
-		volumen = volu;
+		if(estado == true) {
+			volumen = volu;
+		}
 	}
 	public int getVolumen() {
 		return volumen;
 	}
 	
 	public void setCanal(int can) {
-		canal = can;
+		if (estado == true ) {
+			canal = can;
+		}
 	}
 	public int getCanal() {
 		return canal;
