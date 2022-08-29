@@ -43,7 +43,7 @@ public class TV {
 	}
 	
 	public void setVolumen(int volu) {
-		if(estado == true) {
+		if(estado == true && volu>=1 && volu<=7) {
 			volumen = volu;
 		}
 	}
@@ -52,7 +52,7 @@ public class TV {
 	}
 	
 	public void setCanal(int can) {
-		if (estado == true ) {
+		if (estado == true && can>=1 && can<=120) {
 			canal = can;
 		}
 	}
